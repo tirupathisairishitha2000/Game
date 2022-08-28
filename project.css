@@ -1,0 +1,191 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+html
+{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+/* new modified css */
+.again
+{
+ background-color: transparent;
+ border: 1px solid transparent;
+ margin-top: 10px;
+ margin-left: 10px;
+ padding: 10px;
+ width: 150px;
+ border-radius: 20px;
+ background-color: rgb(0, 0, 0);
+ transition: 0.5s;
+}
+.again:hover
+{
+    background-color: rgba(255, 0, 0, 0.608);
+}
+.again img
+{
+    width: 40px;
+}
+.limitIndicater
+{
+    justify-content: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.limitIndicater img
+{
+    width: 50px;
+}
+.headingBar
+{
+    justify-content: center;
+    text-align: center;
+}
+.headingBar img
+{
+    width: 150px;
+}
+
+.number
+{
+  width: 100%; 
+  text-align: center;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.785);
+  border-radius: 30px;
+}
+.number img
+{
+    margin-top: 40%;
+    width: 200px;
+}
+.right
+{
+    font-size: 30px;
+    background-color: rgba(12, 183, 12, 0.491);
+    border-radius: 30px;
+    padding: 20px;
+    height: 600px;
+}
+.left
+{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(131, 60, 60, 0.582);
+  border-radius: 30px;
+}
+#check
+{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+#check:hover
+{
+    background-color: rgb(50, 41, 41);
+}
+#check img
+{
+    width: 30px;
+}
+.guess
+{
+  margin-top: 10px;
+  font-size: 150px;
+  width:100%;
+  height: 500px;
+  outline: none;
+  border: 0px solid;
+  background-color:transparent;
+  color: white;
+  font-family: cursive;
+
+}
+/* block division dimesnsions and media query */
+#second-block
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:990px) {
+.number
+{
+  width: 100%;
+  height: 500px;
+}
+.left
+{
+  width:100%;
+  height: 500px;
+}
+.right
+{
+    width:100%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+}
+@media screen and (max-width:575px) {
+    .number
+    {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 30px;
+    }
+    .number img
+    {
+        width: 100px;
+        margin-top: 10%;
+    }
+    .left
+    {
+      width:100%;
+      height: 200px;
+    }
+   .guess
+   {
+    height: 100px;
+    font-size: 80px;
+   }
+    .right
+    {
+        width:100%;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .headingBar img
+    {
+        width: 80px;
+    }
+    .again
+    {
+        width: 100px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .again img
+    {
+        width: 30px;
+    }
+    .limitIndicater img
+    {
+        width: 40px;
+    }
+        
+    }
